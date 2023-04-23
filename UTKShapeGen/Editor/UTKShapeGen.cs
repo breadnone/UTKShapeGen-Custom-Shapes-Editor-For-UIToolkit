@@ -22,6 +22,11 @@ namespace UTK
         private VisualElement previewWindow;
         private Image previewImage;
         private VisualElement browserContainer;
+        [MenuItem("UTKShapeGen/UTKShapeGen")]
+        static void WindowShapeGen()
+        {
+            var window = EditorWindow.GetWindow<UTKShapeGen>(typeof(UTKShapeGen));
+        }
         private void DrawPreviewOverlay(bool show)
         {
             if(show)
