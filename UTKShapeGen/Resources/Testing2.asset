@@ -1,0 +1,2270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19100, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Testing2
+  m_EditorClassIdentifier: 
+  version: 0
+  atlas: {fileID: 0}
+  vertices:
+  - position: {x: 9.475937, y: 111.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 9.475937, y: 111.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 7.4997406, y: 112.12496, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1, y: 2, z: -9999.9, w: -9999.9}
+  - position: {x: 28.299728, y: 245.72498, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1, y: 2, z: -9999.9, w: -9999.9}
+  - position: {x: 9.475937, y: 111.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 85.74661, y: 65.3285, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 225.96306, y: 232.94705, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 180.86214, y: 18.511787, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 177.4759, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 156.47081, y: 22.220413, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 156.47081, y: 22.220413, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 180.86214, y: 18.511787, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 85.74661, y: 65.3285, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 156.47081, y: 22.220413, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 85.74661, y: 65.3285, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 213.04814, y: 160.73627, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 213.04814, y: 160.73627, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 85.74661, y: 65.3285, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 234.18883, y: 161.73203, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 225.96306, y: 232.94705, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 259.89984, y: 230.7844, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 213.04814, y: 160.73627, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 225.96306, y: 232.94705, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 234.18883, y: 161.73203, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 225.96306, y: 232.94705, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 213.04814, y: 160.73627, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 225.96306, y: 232.94705, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 177.25688, y: 212.22934, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1, y: 2, z: -9999.9, w: -9999.9}
+  - position: {x: 82.85693, y: 222.62933, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1, y: 2, z: -9999.9, w: -9999.9}
+  - position: {x: 180.86214, y: 18.511787, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 273.36255, y: 70.05668, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 240.67592, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 273.36255, y: 70.05668, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 180.86214, y: 18.511787, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 281.63525, y: 85.40389, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 273.36255, y: 70.05668, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 281.63525, y: 85.40389, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 234.18883, y: 161.73203, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 293.4759, y: 39.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 273.36255, y: 70.05668, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 281.63525, y: 85.40389, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 356.6759, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 281.63525, y: 85.40389, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 259.89984, y: 230.7844, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 356.6759, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 259.89984, y: 230.7844, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 234.18883, y: 161.73203, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 261.4759, y: 235.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 259.89984, y: 230.7844, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 225.96306, y: 232.94705, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 234.18883, y: 161.73203, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 226.36394, y: 140.71664, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 213.04814, y: 160.73627, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 156.47081, y: 22.220413, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 103.87593, y: 30.217293, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 85.74661, y: 65.3285, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 213.04814, y: 160.73627, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 0
+    circle: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1, z: -9999.9, w: -9999.9}
+  - position: {x: 177.69493, y: 216.20529, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1, y: 2, z: -9999.9, w: -9999.9}
+  - position: {x: 83.29495, y: 226.60529, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294967295
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1, y: 2, z: -9999.9, w: -9999.9}
+  - position: {x: 103.87593, y: 30.217293, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 99.43321, y: 27.92334, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 107.14867, y: 34.777153, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666653, z: -9999.9, w: -9999.9}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 36.2332, y: 150.32333, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 48.692688, y: 147.98935, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666667, z: -9999.9, w: -9999.9}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 40.440674, y: 157.61176, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 48.692688, y: 147.98935, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666682, z: -9999.9, w: -9999.9}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 261.24066, y: 168.01175, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 257.65686, y: 157.83188, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.666655, z: -9999.9, w: -9999.9}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 266.3153, y: 164.27429, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 257.65686, y: 157.83188, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666626, z: -9999.899, w: -9999.899}
+  - position: {x: 293.4759, y: 39.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 298.3153, y: 41.074287, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 281.15277, y: 67.37275, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666613, z: -9999.9, w: -9999.9}
+  - position: {x: 293.4759, y: 39.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 289.31274, y: 37.04821, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 281.15277, y: 67.37275, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666689, z: -9999.901, w: -9999.901}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 174.60643, y: 209.5032, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6668612, z: -9999.901, w: -9999.901}
+  - position: {x: 181.63908, y: 216.98642, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 174.60643, y: 209.5032, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.666659, z: -9999.9, w: -9999.9}
+  - position: {x: 178.02345, y: 219.18726, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 82.52841, y: 219.64737, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 142.66528, y: 223.08264, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666653, z: -9999.901, w: -9999.901}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 82.78496, y: 229.60883, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 142.66528, y: 223.08264, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666683, z: -9999.899, w: -9999.899}
+  - position: {x: 261.4759, y: 235.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 261.18494, y: 240.00882, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 254.11595, y: 229.57977, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6667042, z: -9999.9, w: -9999.9}
+  - position: {x: 261.4759, y: 235.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 266.16162, y: 233.27261, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 254.11595, y: 229.57977, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666647, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 182.16164, y: 7.672615, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 174.90443, y: 16.840263, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 174.87358, y: 5.1478806, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 174.90443, y: 16.840263, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.666661, z: -9999.9, w: -9999.9}
+  - position: {x: 9.475937, y: 111.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 6.873619, y: 107.547874, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 14.930237, y: 114.348366, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666518, z: -9999.9, w: -9999.9}
+  - position: {x: 9.475937, y: 111.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 4.535454, y: 112.58648, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 14.930237, y: 114.348366, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666688, z: -9999.901, w: -9999.901}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 25.335442, y: 246.18646, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 34.514084, y: 240.13708, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666687, z: -9999.9, w: -9999.9}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 30.593903, y: 250.40717, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 34.514084, y: 240.13708, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666675, z: -9999.9, w: -9999.9}
+  - position: {x: 356.6759, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 356.9939, y: 229.60718, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 348.5735, y: 220.1235, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666769, z: -9999.9, w: -9999.9}
+  - position: {x: 356.6759, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 361.0772, y: 222.24487, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 348.5735, y: 220.1235, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666688, z: -9999.9, w: -9999.9}
+  - position: {x: 240.67592, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 245.07722, y: 7.044853, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 237.9457, y: 14.8899, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666571, z: -9999.9, w: -9999.9}
+  - position: {x: 240.67592, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 239.92433, y: 4.4741135, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 237.9457, y: 14.8899, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666685, z: -9999.9, w: -9999.9}
+  - position: {x: 103.87593, y: 30.217293, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 103.12433, y: 25.274101, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.6666666, z: -9999.9, w: -9999.9}
+  - position: {x: 107.14867, y: 34.777153, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 1.666663, z: -9999.9, w: -9999.9}
+  - position: {x: 40.67592, y: 152.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 36.2332, y: 150.32333, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.4809062, y: -0.76465356, z: -9999.9, w: -9999.9}
+  - position: {x: 31.902939, y: 152.82312, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -2.9243267, y: 0.068603516, z: -9999.9, w: -9999.9}
+  - position: {x: 36.110413, y: 160.11154, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.5218353, y: 2.4980774, z: -9999.9, w: -9999.9}
+  - position: {x: 40.440674, y: 157.61176, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.07841492, y: 1.6648204, z: -9999.9, w: -9999.9}
+  - position: {x: 261.4759, y: 163.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 261.24066, y: 168.01175, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.078420006, y: 1.6648204, z: -9999.9, w: -9999.9}
+  - position: {x: 264.20575, y: 172.03769, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0.9099426, y: 3.0068004, z: -9999.9, w: -9999.9}
+  - position: {x: 269.2804, y: 168.30023, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.6015015, y: 1.7609813, z: -9999.9, w: -9999.9}
+  - position: {x: 266.3153, y: 164.27429, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.6131389, y: 0.41899619, z: -9999.9, w: -9999.9}
+  - position: {x: 293.4759, y: 39.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 298.3153, y: 41.074287, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.6131389, y: 0.41899619, z: -9999.9, w: -9999.9}
+  - position: {x: 300.35657, y: 36.509933, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.2935486, y: -1.1024551, z: -9999.9, w: -9999.9}
+  - position: {x: 291.35394, y: 32.483856, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.7073161, y: -2.444481, z: -9999.9, w: -9999.9}
+  - position: {x: 289.31274, y: 37.04821, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.3877258, y: -0.9230296, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 214.21732, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 181.63908, y: 216.98642, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.3877258, y: 0.92303467, z: -9999.9, w: -9999.9}
+  - position: {x: 184.23885, y: 221.25742, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.2543132, y: 2.3467002, z: -9999.9, w: -9999.9}
+  - position: {x: 180.62321, y: 223.45825, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.0491028, y: 3.0803123, z: -9999.9, w: -9999.9}
+  - position: {x: 178.02345, y: 219.18726, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0.18251547, y: 1.6566467, z: -9999.9, w: -9999.9}
+  - position: {x: 83.07594, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 82.52841, y: 219.64737, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.18251038, y: -1.6566467, z: -9999.9, w: -9999.9}
+  - position: {x: 77.530075, y: 219.7761, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.8486227, y: -1.613739, z: -9999.9, w: -9999.9}
+  - position: {x: 77.78662, y: 229.73755, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.7631073, y: 1.7067465, z: -9999.9, w: -9999.9}
+  - position: {x: 82.78496, y: 229.60883, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.09699504, y: 1.6638387, z: -9999.9, w: -9999.9}
+  - position: {x: 261.4759, y: 235.0173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 261.18494, y: 240.00882, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.09699504, y: 1.6638387, z: -9999.9, w: -9999.9}
+  - position: {x: 265.20642, y: 242.97992, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.24351, y: 2.6542053, z: -9999.9, w: -9999.9}
+  - position: {x: 270.18317, y: 236.24371, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.902415, y: 0.4088033, z: -9999.9, w: -9999.9}
+  - position: {x: 266.16162, y: 233.27261, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.56191, y: -0.58156335, z: -9999.9, w: -9999.9}
+  - position: {x: 177.4759, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 182.16164, y: 7.672615, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.56191, y: -0.58156335, z: -9999.9, w: -9999.9}
+  - position: {x: 183.79832, y: 2.9480743, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.107473, y: -2.1564102, z: -9999.9, w: -9999.9}
+  - position: {x: 176.51027, y: 0.42333984, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.3218791, y: -2.9979885, z: -9999.9, w: -9999.9}
+  - position: {x: 174.87358, y: 5.1478806, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.86744183, y: -1.4231415, z: -9999.9, w: -9999.9}
+  - position: {x: 9.475937, y: 111.8173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 6.873619, y: 107.547874, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.86743927, y: -1.4231415, z: -9999.9, w: -9999.9}
+  - position: {x: 2.3381653, y: 105.4432, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -2.3792572, y: -2.1247, z: -9999.9, w: -9999.9}
+  - position: {x: 0, y: 110.481804, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -3.1586456, y: -0.445165, z: -9999.9, w: -9999.9}
+  - position: {x: 4.535454, y: 112.58648, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.6468277, y: 0.25639343, z: -9999.9, w: -9999.9}
+  - position: {x: 30.275925, y: 245.4173, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 25.335442, y: 246.18646, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.6468277, y: 0.25638837, z: -9999.9, w: -9999.9}
+  - position: {x: 22.205673, y: 250.08575, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -2.690084, y: 1.5561523, z: -9999.9, w: -9999.9}
+  - position: {x: 27.464127, y: 254.30646, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.93726605, y: 2.9630535, z: -9999.9, w: -9999.9}
+  - position: {x: 30.593903, y: 250.40717, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0.10599264, y: 1.6632894, z: -9999.9, w: -9999.9}
+  - position: {x: 356.6759, y: 224.61731, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 356.9939, y: 229.60718, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0.10599773, y: 1.6632894, z: -9999.9, w: -9999.9}
+  - position: {x: 361.36646, y: 232.03229, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.5635071, y: 2.4716594, z: -9999.9, w: -9999.9}
+  - position: {x: 365.44977, y: 224.66998, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.9246116, y: 0.017557781, z: -9999.9, w: -9999.9}
+  - position: {x: 361.0772, y: 222.24487, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.467102, y: -0.7908122, z: -9999.9, w: -9999.9}
+  - position: {x: 240.67592, y: 9.417305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 245.07722, y: 7.044853, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 1.467102, y: -0.79081726, z: -9999.9, w: -9999.9}
+  - position: {x: 247.30934, y: 2.5707397, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 2.211141, y: -2.2821884, z: -9999.9, w: -9999.9}
+  - position: {x: 242.15645, y: 0, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0.49350995, y: -3.1391017, z: -9999.9, w: -9999.9}
+  - position: {x: 239.92433, y: 4.4741135, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.250529, y: -1.6477306, z: -9999.9, w: -9999.9}
+  - position: {x: 103.87593, y: 30.217293, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: 0, y: 0, z: -9999.9, w: -9999.9}
+  - position: {x: 103.12433, y: 25.274101, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -0.25053406, y: -1.6477306, z: -9999.9, w: -9999.9}
+  - position: {x: 100.20888, y: 21.212067, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.2223511, y: -3.0017421, z: -9999.9, w: -9999.9}
+  - position: {x: 96.51776, y: 23.861305, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -2.4527233, y: -2.1186626, z: -9999.9, w: -9999.9}
+  - position: {x: 99.43321, y: 27.92334, z: 0}
+    tint:
+      serializedVersion: 2
+      rgba: 4294901760
+    uv: {x: 0, y: 0}
+    settingIndex: 0
+    flags:
+      serializedVersion: 2
+      rgba: 65536
+    circle: {x: -1.4809062, y: -0.764651, z: -9999.9, w: -9999.9}
+  indices: 0000020001000300040005000400060005000700090008000a000c000b000d000f000e0010001200110013001500140016001800170019001b001a001c001e001d001f002100200022002400230025002700260028002a0029002b002c002d002c002e002d002f003100300032003400330035003700360038003a0039003b003d003c003e0040003f004100430042004400460045004700490048004a004c004b004d004f004e0050005200510053005500540056005700580059005b005a005a005b005c0060005d00620062005d005f0060005e005d00600061005e006600630068006800630065006600640063006600670064006c0069006e006e0069006b006c006a0069006c006d006a0072006f00740074006f007100720070006f00720073007000780075007a007a00750077007800760075007800790076007e007b00800080007b007d007e007c007b007e007f007c008400810086008600810083008400820081008400850082008a0087008c008c00870089008a00880087008a008b00880090008d00920092008d008f0090008e008d00900091008e009600930098009800930095009600940093009600970094009c0099009e009e0099009b009c009a0099009c009d009a00a2009f00a400a4009f00a100a200a0009f00a200a300a000a500a700a600a500a800a700a500a900a800aa00ac00ab00aa00ad00ac00aa00ae00ad00af00b100b000af00b200b100af00b300b200b400b500b600b400b600b700b400b700b800b900bb00ba00b900bc00bb00b900bd00bc00be00c000bf00be00c100c000be00c200c100c300c500c400c300c600c500c300c700c600c800ca00c900c800cb00ca00c800cc00cb00cd00cf00ce00cd00d000cf00cd00d100d000d200d400d300d200d500d400d200d600d500d700d900d800d700da00d900d700db00da00dc00de00dd00dc00df00de00dc00e000df00
+  settings: []
+  size: {x: 365.44977, y: 254.30646}
