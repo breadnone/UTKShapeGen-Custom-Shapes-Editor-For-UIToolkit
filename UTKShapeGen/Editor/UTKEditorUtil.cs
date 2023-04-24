@@ -19,9 +19,13 @@ namespace UTKShape
         public bool fill = false;
         public LineJoin lineJoin = LineJoin.Miter;
         public LineCap lineCap = LineCap.Round;
+        public bool closePath;
+        public UTKDrawType drawType = UTKDrawType.Line;
         public Color lineColor = Color.white;
         public float lineRadius = 10f;
+        public float curveRadius = 20f;
         public bool line = true;
+        public FillRule fillRule;
     }
     [FilePath("UTKShapeGen/UTKShapeGen-conf.utkShapeGenConfig", FilePathAttribute.Location.PreferencesFolder)]
     public class UTKScriptableShapeGen : ScriptableSingleton<UTKScriptableShapeGen>

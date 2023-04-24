@@ -14,14 +14,14 @@ namespace UTK
         public UTKPropSettings prop;
         public UTKScriptableShapeGen instance;
         private VisualElement canvas;
-        private VisualElement tab;
         private List<VisualElement> containers = new();
         private VisualElement rightPanel;
-        private VisualElement leftPanel;
+        private ScrollView leftPanel;
         private List<VisualElement> roots = new();
         private VisualElement previewWindow;
         private Image previewImage;
         private VisualElement browserContainer;
+        private VisualElement toolbarPanel;
         [MenuItem("UTKShapeGen/UTKShapeGen")]
         static void WindowShapeGen()
         {
@@ -73,27 +73,77 @@ namespace UTK
 
             canvas = new VisualElement().Size(100, 100, true, true);
             containers = new();
-            rightPanel = new VisualElement().Size(70, 100, true, true);
-            leftPanel = new VisualElement().Size(30, 100, true, true).Padding(Utk.ScreenRatio(5)).SetOverflow(Overflow.Hidden);
+            rightPanel = new VisualElement().Size(65, 100, true, true);
+            leftPanel = new ScrollView().Size(30, 100, true, true).Padding(Utk.ScreenRatio(5));
 
             rootVisualElement.OnGeometryChanged(x =>
             {
-                rootVisualElement.schedule.Execute(() =>
+                canvas.schedule.Execute(() =>
                 {
                     if (prop.points.Count == 0)
                         return;
-
+ 
                     for (int i = 0; i < prop.points.Count; i++)
                     {
-                        var siz = roots[prop.points[i].root].ElementAt(0).ChangeCoordinatesTo(canvas, roots[prop.points[i].root].ElementAt(0).transform.position);
-                        prop.points[i] = (siz, prop.points[i].root);
+                        for(int j = 0; j < roots.Count; j++)
+                        {
+                            if(prop.points[i].root == (int)roots[j].userData)
+                            {
+                                var siz = roots[j].ElementAt(0).ChangeCoordinatesTo(canvas, roots[j].ElementAt(0).transform.position);
+                                prop.points[i] = (siz, prop.points[i].root);
+                             }
+
+                        }
                     }
-                    Draw();
+
+                    ReDraw(2);
                 }).ExecuteLater(5);
             });
 
             DrawCanvas();
             DrawTab();
+        }
+        private VisualElement DrawToolbar()
+        {
+            var vis = new VisualElement().Size(5, 100, true, true).BorderLeft(2, Color.black).BorderRight(2, Color.black);
+            var btnLine = new Image().Size(100, Utk.ScreenRatio(70), true, false).BorderBottom(2, Color.black).Border(2, Color.white);
+            var btnCurve = new Image().Size(100, Utk.ScreenRatio(70), true, false).BorderBottom(2, Color.black);
+            btnCurve.Display(DisplayStyle.None);
+            vis.AddChild(btnLine).AddChild(btnCurve);
+
+            btnLine.sprite = Resources.Load<Sprite>("Straight-utk");
+            btnCurve.sprite = Resources.Load<Sprite>("Curve-utk");
+
+            btnLine.scaleMode = ScaleMode.ScaleToFit;
+            btnCurve.scaleMode = ScaleMode.ScaleToFit;
+
+            if(prop.drawType == UTKDrawType.Line)
+            {
+                btnLine.Border(2, Color.white);
+                btnCurve.Border(0, Color.white);
+            }
+            else
+            {
+                btnCurve.Border(2, Color.white);
+                btnLine.Border(0, Color.white);
+            }
+
+            btnLine.OnMouseDown(x=>
+            {
+                btnCurve.Border(0, Color.white).BorderBottom(2, Color.black);
+                btnLine.Border(2, Color.white);
+                prop.drawType = UTKDrawType.Line;
+                ReDraw(2);
+            });
+            btnCurve.OnMouseDown(x=>
+            {
+                btnLine.Border(0, Color.white).BorderBottom(2, Color.black);
+                btnCurve.Border(2, Color.white);
+                prop.drawType = UTKDrawType.Curve;
+                ReDraw(2);
+            });
+
+            return vis;
         }
         private VisualElement Separator()
         {
@@ -101,9 +151,10 @@ namespace UTK
         }
         private void DrawTab()
         {
-            var tb = new UTKTab(new List<string> { "LineEdit", "SaveAs", "Browse" });
-            leftPanel.AddChild(tb);
+            var tb = new UTKTab(new List<string> { "Edit", "SaveAs", "Browse" });
             
+            leftPanel.AddChild(tb as VisualElement);
+
             tb.onTabChanged += x=>
             {
                 if(x == 2)
@@ -190,6 +241,8 @@ namespace UTK
             //////
             var lineCon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow().AlignItems(Align.FlexStart);
             var fillCon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow().AlignItems(Align.FlexStart);
+            var ruleCon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow().AlignItems(Align.FlexStart);
+            var pathCon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow().AlignItems(Align.FlexStart);
 
             var lblLine = new Label().Text("Line Color").Size(40, 100, true, true).TextAlignment(TextAnchor.MiddleLeft);
             var lblfill = new Label().Text("Fill Color").Size(40, 100, true, true).TextAlignment(TextAnchor.MiddleLeft);
@@ -198,9 +251,56 @@ namespace UTK
             fillCol.value = prop.fillColor;
             lineCol.value = prop.lineColor;
 
+            var lblRule = new Label().Text("FillRule").Size(40, 100, true, true).TextAlignment(TextAnchor.MiddleLeft);
+            var ruleCol = new DropdownField().Size(60, 100, true, true);
+            ruleCon.AddChild(lblRule).AddChild(ruleCol);
+            ruleCol.SetValueWithoutNotify("NonZero");
+            ruleCol.choices = new List<string>{"OddEven", "NonZero"};
+
+            var lblPath = new Label().Text("Close Path").Size(40, 100, true, true).TextAlignment(TextAnchor.MiddleLeft);
+            var objPath = new DropdownField().Size(60, 100, true, true);
+            objPath.choices = new List<string>{"Auto", "Disable"};
+            pathCon.AddChild(lblPath).AddChild(objPath);
+            objPath.SetValueWithoutNotify("Auto");
+
+            objPath.OnValueChanged(x=>
+            {
+                if(x.newValue == "Auto")
+                {
+                    prop.closePath = true;
+                    prop.utkMesh.meshProperty.closePath = true;
+                }
+                else
+                {
+                    prop.closePath = false;
+                    prop.utkMesh.meshProperty.closePath = false;
+                }
+
+                Draw();
+            });
+
+
+            ruleCol.OnValueChanged(x=>
+            {
+                if(prop == null)
+                    return;
+
+                if(x.newValue == "OddEven")
+                {
+                    prop.fillRule = FillRule.OddEven;
+                    Draw();
+                }
+                else
+                {
+                    prop.fillRule = FillRule.NonZero;
+                    Draw();
+                }
+            });
+
             lineCon.AddChild(lblLine as VisualElement).AddChild(lineCol);
             fillCon.AddChild(lblfill as VisualElement).AddChild(fillCol);
-            tb.InsertToTab(1, Separator()).InsertToTab(1, lineCon).InsertToTab(1, fillCon);
+            tb.InsertToTab(1, Separator()).InsertToTab(1, pathCon).InsertToTab(1, lineCon).InsertToTab(1, fillCon).InsertToTab(1, ruleCon);
+
 
             var dcon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow();
             var lbld = new Label().Text("JoinType").Size(40, 100, true, true).TextAlignment(TextAnchor.MiddleLeft);
@@ -209,7 +309,7 @@ namespace UTK
             dropLine.choices = new List<string> { "Mitter", "Round", "Bevel" };
             tb.InsertToTab(1, Separator()).InsertToTab(1, dcon);
 
-            dropLine.value = prop.lineJoin.ToString();
+            dropLine.SetValueWithoutNotify(prop.lineJoin.ToString());
 
             var lcon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow();
             var lbll = new Label().Size(40, 100, true, true).Text("LineWidth").TextAlignment(TextAnchor.MiddleLeft);
@@ -218,6 +318,21 @@ namespace UTK
             lcon.AddChild(lbll).AddChild(sliderl);
             tb.InsertToTab(1, Separator()).InsertToTab(1, lcon);
             sliderl.value = prop.lineRadius;
+
+            var ccon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow();
+            ccon.Display(DisplayStyle.None);
+            var lblc = new Label().Size(40, 100, true, true).TextAlignment(TextAnchor.MiddleLeft).Text("Curve Radius");
+            var cslide = new Slider().LowValue(0).HighValue(150).ShowInputField(true).Size(60, 100, true, true);
+            ccon.AddChild(lblc).AddChild(cslide);
+            tb.InsertToTab(1, Separator()).InsertToTab(1, ccon);
+
+            cslide.SetValueWithoutNotify(prop.curveRadius);
+
+            cslide.OnValueChanged(x=>
+            {
+                prop.curveRadius = x.newValue;
+                ReDraw(2);
+            });
 
             var profCon = new VisualElement().Size(100, Utk.ScreenRatio(50), true, false).FlexRow();
             var btnprof = new Button().Size(20, 100, true, true).Text("Save");
@@ -232,7 +347,7 @@ namespace UTK
             var profList = new DropdownField().Size(60, 100, true, true);
             profListCon.AddChild(lblprofList).AddChild(profList);
             tb.InsertToTab(1, profListCon);
-
+            
             List<string> lis = new();
 
             if (instance.profiles.Count > 0)
@@ -268,6 +383,10 @@ namespace UTK
                     newprop.lineJoin = found.lineJoin;
                     newprop.lineRadius = found.lineRadius;
                     newprop.points = new List<(Vector3 point, int root)>(found.points);
+                    newprop.fillRule = found.fillRule;
+                    newprop.drawType = found.drawType;
+                    newprop.closePath = found.closePath;
+                    newprop.curveRadius = found.curveRadius;
 
                     prop = newprop;
 
@@ -316,7 +435,10 @@ namespace UTK
                 newprop.lineJoin = prop.lineJoin;
                 newprop.lineRadius = prop.lineRadius;
                 newprop.points = new List<(Vector3 point, int root)>(prop.points);
-
+                newprop.fillRule = prop.fillRule;
+                newprop.closePath = prop.closePath;
+                newprop.drawType = prop.drawType;
+                newprop.curveRadius = prop.curveRadius;
 
                 instance.profiles.Add(newprop);
 
@@ -384,15 +506,20 @@ namespace UTK
             {
                 for (int i = prop.points.Count; i-- > 0;)
                 {
-                    roots[prop.points[i].root].BcgColor(Color.clear);
+                    for(int j = 0; j < roots.Count; j++)
+                    {
+                        if(prop.points[i].root == (int)roots[j].userData)
+                            roots[j].BcgColor(Color.clear);
+                    }
                 }
 
+                roots.Clear();
                 prop.points.Clear();
             }
         }
         private void DrawCanvas()
         {
-            this.rootVisualElement.AddChild(leftPanel).AddChild(rightPanel).FlexRow();
+            this.rootVisualElement.AddChild(leftPanel).AddChild(DrawToolbar()).AddChild(rightPanel).FlexRow();
             rightPanel.AddChild(canvas);
 
             rootVisualElement.schedule.Execute(() =>
@@ -422,19 +549,20 @@ namespace UTK
                         var root = new VisualElement().Size(100, 100, true, true).Border(Utk.ScreenRatio(1f), Color.white).Opacity(0.3f);
                         var sub = new VisualElement().Size(50, 50, true, true).BcgColor(Color.clear).Name("point").Position(Position.Absolute).Bottom(0).Right(0);
 
+                        var idx = i;
+                        root.userData = i;
                         root.OnMouseDown(x =>
                         {
-                            if (!roots.Exists(x => x == root))
+                            VisualElement froot = roots.Find(x => x == root);
+
+                            if (froot == null)
                             {
                                 root.BcgColor(Color.yellow);
 
                                 var siz = sub.ChangeCoordinatesTo(canvas, sub.transform.position);
                                 roots.Add(root);
-                                prop.points.Add((siz, roots.Count - 1));
-                                canvas.schedule.Execute(() =>
-                                {
-                                    Draw();
-                                }).ExecuteLater(5);
+                                prop.points.Add((siz, idx));
+                                ReDraw(1);
                             }
                             else
                             {
@@ -442,15 +570,12 @@ namespace UTK
 
                                 for (int u = 0; u < prop.points.Count; u++)
                                 {
-                                    if (roots[prop.points[u].root] == root)
+                                    if (prop.points[u].root == idx)
                                     {
                                         prop.points.RemoveAt(u);
-
-                                        canvas.schedule.Execute(() =>
-                                        {
-                                            Draw();
-                                        }).ExecuteLater(5);
-                                        break;
+                                        roots.Remove(froot);
+                                        ReDraw(1);
+                                        return;
                                     }
                                 }
                             }
@@ -482,26 +607,27 @@ namespace UTK
 
             prop.lineJoin = this.prop.lineJoin;
             prop.lineCap = this.prop.lineCap;
+            prop.fillRule = this.prop.fillRule;
+            prop.closePath = this.prop.closePath;
+            prop.curveRadius = this.prop.curveRadius;
+            prop.lineColor = this.prop.lineColor;
 
-            if (this.prop.line)
+            if(this.prop.line)
             {
-                prop.lineColor = this.prop.lineColor;
                 prop.lineRadius = this.prop.lineRadius;
             }
             else
             {
-                prop.lineRadius = 0f;
+                prop.lineRadius = 0;
             }
 
             if (this.prop.fill)
                 prop.fillColor = this.prop.fillColor;
 
-            this.prop.utkMesh = new UTKMesh(p, prop);
+            this.prop.utkMesh = new UTKMesh(p, prop, this.prop.drawType);
             this.prop.utkMesh.Position(Position.Absolute).Opacity(0.7f);
             canvas.AddChild(this.prop.utkMesh);
-
         }
-
         private void ReDraw(long waitTime)
         {
             canvas.schedule.Execute(() =>
