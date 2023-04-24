@@ -13,3 +13,9 @@ Unity3D 2022.2 or above (due to the new vector api)
 
   
 Made completely in c# with [UTK-Fluent extension for UIToolkit](https://github.com/breadnone/UTK-Fluent-extension-for-UIToolkit) 
+
+  
+TODO:  
+- Masking support (partially implemented, hidden for now).  
+- Multi drawing.  
+- Curves drawing (implemented, buggy still and hidden for now)  
