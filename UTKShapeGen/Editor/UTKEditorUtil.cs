@@ -19,6 +19,7 @@ namespace UTKShape
         public bool fill = false;
         public LineJoin lineJoin = LineJoin.Miter;
         public LineCap lineCap = LineCap.Round;
+        public float mitterLimit = 0f;
         public bool closePath;
         public UTKDrawType drawType = UTKDrawType.Line;
         public Color lineColor = Color.white;
