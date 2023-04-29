@@ -1,13 +1,16 @@
 # UTKShapeGen-Custom-Shapes-Editor-For-UIToolkit
 Editor drawing tool to generate custom meshes/shapes as vector graphics for UIToolkit.  
 
-![YPy6dLePiC](https://user-images.githubusercontent.com/64100867/233837114-a2241bdd-c1d1-4e2f-9885-fae2794fd130.gif)
+![U9fgHbYY4P](https://user-images.githubusercontent.com/64100867/235291530-592eec69-a165-4b67-b64c-a212e03291a9.gif)  
+![VCX6qdMum6](https://user-images.githubusercontent.com/64100867/235291635-fcad07d6-2017-4023-aed1-057b8d4bad2a.gif)
+
+
   
-  
-Features:  
+Features :  
 - Line
 - Curves
 - Fill
+- Mirror-mode
 - Export as VectorGraphic
 
 Installation :  
