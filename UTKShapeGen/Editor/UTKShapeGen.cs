@@ -34,6 +34,9 @@ namespace UTK
         static void WindowShapeGen()
         {
             var window = EditorWindow.GetWindow<UTKShapeGen>(typeof(UTKShapeGen));
+            window.ShowUtility();
+            window.minSize = new Vector2(Utk.ScreenRatio(1900), Utk.ScreenRatio(1100));
+            window.maxSize = window.maxSize;
         }
 
         private void DrawPreviewOverlay(bool show)
@@ -198,7 +201,6 @@ namespace UTK
             }
         }
         private VisualElement mirrorButton;
-
         private VisualElement DrawToolbar()
         {
             var vis = new VisualElement().Size(5, 100, true, true).BorderLeft(2, Color.black).BorderRight(2, Color.black);
