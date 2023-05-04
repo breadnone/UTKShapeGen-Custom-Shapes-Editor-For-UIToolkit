@@ -13,6 +13,9 @@ Features :
 - Mirror-mode
 - Export as VectorGraphic
 
+How-To :  
+Remove points while in normal mode, just click the grid where it was originally assigned to. In point mode, right-click and choose 'Delete'  
+
 Installation :  
 - Download the .zip and extract UTKShapeGen to Assets folder
 Note : Generated VectorImage will be exported to Assets/UTKShapeGen/Resources 
