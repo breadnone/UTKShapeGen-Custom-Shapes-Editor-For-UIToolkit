@@ -18,7 +18,8 @@ Remove points while in normal mode, just click the grid where it was originally 
 
 Installation :  
 - Download the .zip and extract UTKShapeGen to Assets folder
-Note : Generated VectorImage will be exported to Assets/UTKShapeGen/Resources 
+Note : Generated VectorImage will be exported to Assets/UTKShapeGen/Resources  
+Note 2: This is just prove-of-concept stuff that I worked on on last weekend so other can work their way/improve it.
   
 Requirement:
 Unity3D 2022.2 or above (due to the new vector api)  
